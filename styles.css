@@ -82,12 +82,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 8px solid white;
-  transition: all .5s;
+  transition: all 1.5s;
 }
 header .profile-image:hover {
-  transform: scale(1.4) rotate(-13deg);
+  transform: scale(1.4) rotate(-1080deg);
 }
 .tag {
  
@@ -263,5 +263,4 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
 }
