@@ -122,6 +122,23 @@ header .profile-image:hover {
   border-color: #5A7543;
 }
 
+.card2 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 1105px;
+  text-align: left;
+  background: #5182A6;
+  border-bottom: 4px solid #BCAC9C;
+  border-radius: 6px;
+  transition: all .5s;
+
+
+}
+.card2:hover {
+  border-color: #5A7543;
+}
+
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -147,6 +164,18 @@ ul.skills {
   overflow: hidden;
   width: 1105px;
   margin: auto;
+}
+
+.picture2 {
+  border: black 10px dashed;
+  height: 250px;
+  overflow: hidden;
+  width: 1105px;
+  margin: auto;
+}
+
+.picture2 img {
+  transform: translateY(-32%)
 }
 
 footer {
