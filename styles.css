@@ -24,6 +24,7 @@ a:hover {
 p {color: white;
 }
 
+
 /* Section Styles */
 
 .liste {
@@ -66,13 +67,6 @@ h2 {
   color: #5A7543;
 }
 
-.namn {
-border: 6px dashed white;
-border-radius: 45%;
-padding: 10px;
-background: 5182A6;
-}
-
 header {
   text-align: center;
   background: url('images/sjo.jpeg') no-repeat top center ;
@@ -103,9 +97,17 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+
+.name {
+  border: 6px dashed white;
+  border-radius: 45%;
+  padding: 10px;
+}
+
 .location {
   background-color: white;
   color: black;
+  border: solid white;
 }
 .card {
   margin: 30px;
